@@ -18,3 +18,6 @@ print("initiating iot topic..")
 myMQTTClient.connect()
 
 myMQTTClient.subscribe("home/testfun", 1, testfun)
+
+while True:
+    time.sleep(5)
