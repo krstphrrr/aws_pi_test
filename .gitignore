@@ -1,3 +1,4 @@
 *.pem
 *.key
 *.crt
+.vscode/settings.json
